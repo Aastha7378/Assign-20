@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Flexboxes</title>
+    <style>
+
+        .parent{
+            display: flex;
+            background-color: bisque;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .card{
+            width: 180px;
+            border: 4px double black;
+            border-radius: 10px;
+            margin: 5px;
+            background-color: white;
+           
+
+        }
+
+        .card-img{
+            width: 100%;
+            height: 200px;
+            border-radius: 7px 7px 0 0;
+
+        }
+
+    .text1{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+
+        <div class="card">
+            <img src="./img/girl1.jpg" class="card-img"/>
+            <h2 class="text1">Picture 1</h2>
+
+        </div>
+
+        <div class="card">
+            <img src="./img/girl2.jpg" class="card-img"/>
+            <h2 class="text1">Picture 2</h2>
+
+        </div>
+
+        <div class="card">
+            <img src="./img/girl3.jpg" class="card-img"/>
+            <h2 class="text1">Picture 3</h2>
+
+        </div>
+
+        <div class="card">
+            <img src="./img/girl4.jpg" class="card-img"/>
+            <h2 class="text1">Picture 4</h2>
+
+        </div>
+
+        <div class="card">
+            <img src="./img/girl5.jpg" class="card-img"/>
+            <h2 class="text1">Picture 5</h2>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
